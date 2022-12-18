@@ -1,8 +1,11 @@
 # auth-service
-Social and db authentication 
+Social authentication 
 
-#Social Authontication url
+#Authontication url
 http://localhost:8080/login
 
-#DB Authontication url
-http://localhost:8080/auth/login
+# Git oauth config
+Homepage URL : http://localhost:8080
+
+# Git Authorization callback URL
+http://localhost:8080/login/oauth2/code/github
