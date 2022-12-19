@@ -6,6 +6,9 @@ spring:
           github:
             clientId: 556a0d835a152b6f2680
             clientSecret: 7fbd82a92320bb9ea25f4a848db6f712f7d018c7
+            scope:
+              - user:email
+              - read:user                  
           google:
             client-id: google-client-id
             client-secret: google-client-secret
